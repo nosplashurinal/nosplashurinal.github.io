@@ -1,0 +1,154 @@
+#root {
+  max-width: 816px;
+  margin: auto;
+  position: relative;
+}
+.desktop #main {
+  margin-left: 192px;
+}
+.mobile #main {
+  margin-left: 24px;
+  margin-right: 16px;
+}
+#left-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 160px;
+  margin: 0 32px 0 0;
+}
+#keywords {
+  margin-top: 96px;
+}
+.toggle-container {
+  display: none;
+  margin-bottom: 32px;
+}
+.toggle-container.show {
+  display: block;
+}
+.mobile #keywords {
+  display: none;
+}
+.desktop .block {
+  margin-bottom: 32px;
+}
+.mobile .block {
+  border-bottom: 1px solid #DADADA;
+}
+h1 {
+  color: rgb(0,76,69);
+  font-family: 'Merriweather', serif;
+}
+.desktop #header {
+  font-size: 30px;
+  line-height: 96px;
+}
+.mobile #header {
+  font-size: 24px;
+  line-height: 72px;
+}
+article>h1, article>button {
+  text-transform: uppercase;
+  color: rgb(0,150,136);
+  font-family: 'Arimo', sans-serif;
+  line-height: 1.58;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+article>button {
+  background: none;
+  border: 0;
+  outline: 0;
+  display: block;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+  margin-top: 12px;
+}
+#contact {
+  border: none;
+}
+article>button:after {
+  content: '+';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(1.5);
+  line-height: 1.58;
+  padding-right: 8px;
+  text-transform: uppercase;
+  color: rgb(0,150,136);
+  font-size: 16px;
+}
+button.active:after {
+  content: '\2013';
+}
+p {
+  font-size: 16px;
+  line-height: 1.58;
+}
+.keyword-ul {
+  margin-top: 16px;
+}
+.keyword-ul li {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  margin: 0 4px 4px 0;
+  padding: 4px 8px;
+}
+.keyword-ul li:not(.label) {
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+}
+.keyword-ul .label {
+  padding-left: 0;
+  color: rgb(0,150,136);
+}
+.keyword-span {
+  width: auto;
+  height: auto;
+}
+.experience-ul>div {
+  margin-bottom: 20px;
+}
+
+.keyword-span, .block p, .block span {
+  font-family: 'Lora', serif;
+}
+.organization, .institution {
+  font-weight: 700;
+  font-style: italic;
+}
+.role {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.period {
+  float: right;
+}
+.mobile .period {
+  display: block;
+  float: none;
+}
+.institution, .role, .period {
+  line-height: 1.58;
+}
+.summary, .description {
+  margin-top: 16px;
+}
+/* ul.description>li {
+  list-style: disc inside;
+} */
+ul.description>li>p {
+  display: list-item;
+  list-style: disc outside;
+}
+.email {
+  text-decoration: underline;
+}
