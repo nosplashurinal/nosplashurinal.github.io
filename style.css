@@ -42,11 +42,13 @@ h1 {
 }
 .desktop #header {
   font-size: 30px;
-  line-height: 96px;
+  line-height: 30px;
+  margin: 36px 0;
 }
 .mobile #header {
   font-size: 24px;
-  line-height: 72px;
+  line-height: 27px;
+  margin: 24px 0;
 }
 article>h1, article>button {
   text-transform: uppercase;
@@ -139,8 +141,11 @@ p {
 .institution, .role, .period {
   line-height: 1.58;
 }
-.summary, .description {
+#summary, .description {
   margin-top: 16px;
+}
+#summary p {
+  margin-bottom: 32px;
 }
 /* ul.description>li {
   list-style: disc inside;
