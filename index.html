@@ -1,21 +1,211 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Ramakrishnan, Bharadwaj - Resume</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>Ramakrishnan, Bharadwaj</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700i" rel="stylesheet">
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Arimo"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700i"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="root">
-      <section id="main"></section>
-      <aside id ="left-container"></aside>
+    <div class="w-screen h-screen flex flex-nowrap">
+      <div
+        id="left-container"
+        class="translate-x-0 z-20 bg-black fixed top-0 left-0 w-[50%] h-full flex justify-around flex-col flex-nowrap p-8 font-lora italic transition-transform ease-in-out duration-500"
+      >
+        <div class="flex flex-nowrap items-center justify-between">
+          <div class="text-6xl text-yellow basis-2/3">Check out my work.</div>
+          <div class="text-jade w-28 h-28 animate-point">
+            <svg
+              width="100%"
+              height="100%"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              fill="currentColor"
+            >
+              <path
+                d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        id="right-container"
+        class="ml-[50%] p-8 flex flex-col flex-nowrap space-y-12"
+      >
+        <div class="text-black flex font-lora text-xl">
+          <div class="leading-relaxed">
+            1. I created a launch page for a jewelry business using GSAP.<span
+              class="pl-2"
+              ><button
+                data-link="http://caratlane.etched.s3-website-us-west-2.amazonaws.com/ "
+                class="link-button bg-jade font-arimo text-white text-base tracking-wider px-1.5 py-1 -skew-x-[20deg] shadow-box hover:shadow-box-hover transition-all ease-in-out whitespace-nowrap"
+                type="button"
+              >
+                <div class="skew-x-[20deg] font-semibold">See it here</div>
+              </button></span
+            >
+          </div>
+        </div>
+        <div class="text-black flex font-lora text-xl">
+          <div class="leading-relaxed">
+            2.
+            <span class="pr-2">
+              <button
+                data-link="http://bombay-deco.s3-website-us-west-2.amazonaws.com/"
+                class="link-button bg-jade font-arimo text-white text-base tracking-wider px-1.5 py-1 -skew-x-[20deg] shadow-box hover:shadow-box-hover transition-all ease-in-out whitespace-nowrap"
+                type="button"
+              >
+                <div class="skew-x-[20deg] font-semibold">This</div>
+              </button></span
+            >
+            is a concept page that creates an experience of walking through
+            iconic buildings of Mumbai. I developed it using CSS perspective to
+            create the parallax.
+          </div>
+        </div>
+        <div class="text-black flex font-lora text-xl">
+          <div class="leading-relaxed">
+            3. I designed and built this simple
+            <span class="p-2">
+              <button
+                data-link="http://city-weather-find.s3-website.ap-south-1.amazonaws.com/"
+                class="link-button bg-jade font-arimo text-white text-base tracking-wider px-1.5 py-1 -skew-x-[20deg] shadow-box hover:shadow-box-hover transition-all ease-in-out whitespace-nowrap"
+                type="button"
+              >
+                <div class="skew-x-[20deg] font-semibold">weather app</div>
+              </button></span
+            >
+            while learning Vue.
+          </div>
+        </div>
+        <div class="text-black flex font-lora text-xl">
+          <div class="leading-relaxed">
+            4. I built a front-end for an ERP management software.
+            <span class="p-2">
+              <button
+                data-link="http://erp-lite.s3-website-us-west-2.amazonaws.com/"
+                class="link-button bg-jade font-arimo text-white text-base tracking-wider px-1.5 py-1 -skew-x-[20deg] shadow-box hover:shadow-box-hover transition-all ease-in-out whitespace-nowrap"
+                type="button"
+              >
+                <div class="skew-x-[20deg] font-semibold">Check out</div>
+              </button></span
+            >
+            the prototype (please use
+            <span class="italic">admin</span> and
+            <span class="italic">admin123</span> as the username and password
+            respectively).
+          </div>
+        </div>
+        <div class="text-black flex font-lora text-xl">
+          <div class="leading-relaxed">
+            5.
+            <span class="p-2">
+              <button
+                data-link="http://one-view-20.s3-website.ap-south-1.amazonaws.com/"
+                class="link-button bg-jade font-arimo text-white text-base tracking-wider px-1.5 py-1 -skew-x-[20deg] shadow-box hover:shadow-box-hover transition-all ease-in-out whitespace-nowrap"
+                type="button"
+              >
+                <div class="skew-x-[20deg] font-semibold">This</div>
+              </button></span
+            >
+            is the prototype of a CRM application built using React and React
+            Charts. It's got many cool interactions and a lot of focus on UX.
+          </div>
+        </div>
+        <div class="text-black flex font-lora text-xl">
+          <div class="leading-relaxed">
+            5. I also made my
+            <span class="p-2">
+              <button
+                data-link="./resume/index.html"
+                class="link-button bg-jade font-arimo text-white text-base tracking-wider px-1.5 py-1 -skew-x-[20deg] shadow-box hover:shadow-box-hover transition-all ease-in-out whitespace-nowrap"
+                type="button"
+              >
+                <div class="skew-x-[20deg] font-semibold">resume</div>
+              </button></span
+            >
+            with HTML (probably needs to be updated at some point 😄).
+          </div>
+        </div>
+        <div class="text-black flex font-lora text-xl">
+          * all the above front-ends are made only for desktop (and with love).
+        </div>
+      </div>
+      <div
+        id="iframe-container"
+        class="z-10 fixed top-full left-0 w-screen h-full bg-white translate-y-0 transition-all duration-500"
+      >
+        <button
+          id="back-button"
+          class="absolute flex flex-nowrap items-center top-0 right-0 bg-jade bg-opacity-70 p-6 text-white font-arimo tracking-widest text-3xl z-20"
+        >
+          <svg
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            fill="currentColor"
+            class="mr-4 rotate-180"
+          >
+            <path
+              d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
+            />
+          </svg>
+          BACK
+        </button>
+        <iframe class="w-full h-full"></iframe>
+        <div
+          class="absolute z-10 w-full h-full top-0 left-0 bg-white transition-all duration-500 delay-500 ease-in-out"
+        ></div>
+      </div>
     </div>
-    <!-- <script src="./main.js"></script> -->
-    <script src="./main.js"></script>
+    <script type="text/javascript">
+      var iframeContainer = document.getElementById("iframe-container");
+      var iframe = iframeContainer.children[1];
+      var iframeOverlay = iframeContainer.children[2];
+      var leftContainer = document.getElementById("left-container");
+      var rightContainer = document.getElementById("right-container");
+      var linkButtons = document.querySelectorAll(".link-button");
+      var backButton = document.getElementById("back-button");
+      linkButtons.forEach(function (current) {
+        current.addEventListener("click", function (e) {
+          var link = e.currentTarget.dataset.link;
+          iframe.src = link;
+          leftContainer.classList.replace("translate-x-0", "-translate-x-full");
+          iframeContainer.classList.replace(
+            "translate-y-0",
+            "-translate-y-full"
+          );
+          iframeContainer.classList.replace("opacity-0", "opacity-1");
+          iframeOverlay.classList.replace("h-full", "h-0");
+        });
+      });
+      backButton.addEventListener("click", function () {
+        leftContainer.classList.replace("-translate-x-full", "translate-x-0");
+        iframeContainer.classList.replace("-translate-y-full", "translate-y-0");
+        iframeContainer.classList.replace("opacity-1", "opacity-0");
+        iframeOverlay.classList.replace("h-0", "h-full");
+        iframe.src = link;
+      });
+    </script>
   </body>
 </html>

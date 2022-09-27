@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		-webkit-tap-highlight-color: transparent;
+	}
+	@font-face {
+		font-family: Arimo;
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url('https://fonts.googleapis.com/css?family=Arimo') format('woff');
+	}
+	@font-face {
+		font-family: Merriweather;
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url('https://fonts.googleapis.com/css?family=Merriweather') format('woff');
+	}
+    @font-face {
+		font-family: Lora;
+		font-style: normal;
+		font-display: swap;
+		src: url('https://fonts.googleapis.com/css?family=Lora:400,700i') format('woff');
+	}
+
+}
